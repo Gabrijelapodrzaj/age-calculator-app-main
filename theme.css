@@ -1,0 +1,52 @@
+/*colors*/
+:root {
+  --color-background: rgba(241, 213, 222, 0.381);
+  --color-main-background: hsl(0, 0%, 100%);
+  --color-text-primary: hsl(0, 0%, 8%);
+  --color-text-secondary: hsl(0, 1%, 44%);
+  --color-text-emphasized: hsl(259, 100%, 65%);
+  --color-text-error: hsl(0, 100%, 67%);
+  --color-outlines: hsl(0, 0%, 86%);
+}
+/*fonts*/
+.text-primary {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(50rem / 16);
+  white-space: nowrap;
+}
+.text-secondary {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  font-size: calc(9rem / 16);
+  margin-bottom: 5px;
+  display: block;
+}
+.text-emphasized {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-text-emphasized);
+  font-size: calc(50rem / 16);
+}
+.text-error {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-text-error);
+  font-size: calc(7rem / 16);
+}
+.text-details {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+  font-size: calc(16rem / 16);
+}
+.text-details::placeholder {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  font-size: calc(16rem / 16);
+}
